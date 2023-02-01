@@ -1,0 +1,16 @@
+img.seven-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle; 
+    top: 80%;
+    left: 50%;
+  }
+  /*RESPONSIVE_IMAGE PARA FIREFOX*/
+@-moz-document url-prefix() {  
+    img.seven-logo{
+     width: 100%;
+     max-width:600px;
+     max-height:156px;
+    }
+} 
